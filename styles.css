@@ -1,0 +1,259 @@
+body {
+     margin: 0; 
+     padding: 0;
+     font-family: Arial, sans-serif;
+     background-color: gray;
+     color: white;
+     }
+
+     .header{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 20px auto;
+    }
+    .header-title{
+        color: #E6533C;
+    }
+
+    .home{
+        background-color:  #E6533C;
+    }
+
+    nav{
+        display: flex;
+        border: 2px solid white;
+        height: 20px;
+       margin-top: 10px;
+        padding: 0 20px 30px 0px ;
+        border-radius: 20px;
+    }
+
+    .btn-primary{
+        width: 124px;
+        height: 44px;
+        border-radius: 30px;
+        background-color: #E6533C;
+
+    }
+    .btn-download{
+        width: 124px;
+        height: 44px;
+        border-radius: 30px;
+
+    }
+
+    .image-container{
+        position: relative; 
+        display: inline-block;
+    }
+    .image-container img{
+        display: block;
+    }
+
+   .image-container .img-card-one{
+        background-color: #30303088;
+        height: 80px;
+        width: 170px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 10px;
+        box-shadow: #30303088;
+
+        position: absolute;
+         top: 80%;
+          left: 20%; 
+        transform: translate(-50%, -50%);
+    }
+    .red-circle{
+        background-color: #E6533C;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
+
+      .image-container .img-card-two{
+        background-color: #30303088;
+        height: 80px;
+        width: 170px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 10px;
+        box-shadow: #30303088;
+        position: absolute;
+         top: 20%;
+          left: 95%; 
+        transform: translate(-50%, -50%);
+
+    }
+
+main{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.Fitness-section{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+
+/* change habit styles */
+
+.habit-title{
+    text-align: center;
+    margin-top: 200px;
+}
+.habit-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.movement-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+   
+    
+}
+.movement-card img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+/* run extra mile style */
+
+
+.extra-mile-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(54, 50, 50, 0.555);
+    padding: 20px;
+    border-radius: 20px;
+}
+.extra-mile-container img{
+    width: 366px;
+    width: 312px;
+    border-radius: 20px;
+} 
+.extra-mile-container div{
+    max-width: 443px;
+}
+
+
+/* bmi styles */
+.bmi-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.bmi-title{
+    text-align: left;
+}
+
+
+
+table {
+     width: 310px; 
+     height: 344px;
+     border-collapse: collapse;
+     }
+
+ th, td { 
+     border: 1px solid #dddddd; 
+     text-align: left; padding: 8px;
+     }
+    
+     .bmi-input{
+        text-align: center;
+     }
+
+     input{
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 10px;
+        margin-bottom: 5px;
+     }
+
+/* meet out team styles */
+
+
+.meet-title{
+    text-align: center;
+}
+.trainer-card-one{
+    position: relative;
+    display: inline-block;
+}
+
+.trainer-card-one img{
+    width: 316px;
+    height: 272px;
+    display: block;
+    border-radius: 20px;
+    
+
+}
+.trainer-card-one .overlay-text {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+  
+}
+.trainer-card-one .overlay-text-two{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+.trainer-container-one{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.trainer-container{
+    background-color: rgb(49, 45, 45);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+
+/* footer section styles */
+footer{
+    width: 80%;
+    margin: 0 auto;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.get-start{
+    display: flex;
+    justify-content: space-between;
+    gap: 250px;
+}
+
+
+
+
+/* resposinve desing */
+
+
+@media  screen and (max-width:576px) {
+    
+}
